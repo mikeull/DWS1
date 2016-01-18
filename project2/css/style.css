@@ -26,7 +26,7 @@ h1 {
 	
 }
 #shadowbox{
-	box-shadow: -1px 0px 5px 3px #000;
+	box-shadow: -1px 5px 15px 3px #000;
 	width: 75%;
 	border-color: #F31320;
 	border-style: solid;
@@ -139,4 +139,8 @@ figure{
 }
 ol{
 	list-style-type:lower-roman;
+}
+footer{
+	background-color: #0F0F03;
+	font-size: 75%;
 }
