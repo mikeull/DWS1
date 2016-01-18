@@ -1,21 +1,74 @@
+
+@font-face{
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue.otf');
+}
+
+@font-face{
+		font-family: 'OSP-DIN';
+	src: url('../fonts/OSP-DIN.ttf');
+}
+h1 {
+	font-family:OSP-DIN, arial;
+	color: #F2E527;
+	font-size: 255%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+	text-align: center;
+	text-shadow: 3px -1px 1px #000;
+	background-color: #F31320;
+	
+}
+
+h2{
+	font-family:OSP-DIN, arial;
+	color: #F2E527;
+	font-size: 165%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+	text-align: left;
+	text-shadow: 3px -1px 1px #000;
+	background-color: #F31320;
+}
+h3{
+	font-family:OSP-DIN, arial;
+	color: #F2E527;
+	font-size: 120%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+	text-align: left;
+	text-shadow: 3px -1px 1px #000;
+	background-color: #F31320;
+	
+}
 nav li{
 	display: inline;
-	padding: 2px;
-	font-family: Georgia, Times, serif;
-	font-size: small;
+	padding: 5px;
+
+}
+nav {
+	
+	font-family: OSP-DIN, arial;
+	font-size: 100%;
+	text-align: center;
 }
 
 body {
-	background-color: #FFF;
+	background-color: #0F0F03;
 	width: 80%;
-	margin: 0px auto;
+	text-align: justify;
+	font-family: arial;
+	font-size: 110%;
 }
 header {
 	width: 80%;
 }
 
 #introduction {
-	background-color: #0F0F03;
+	
 	padding: 15px;
 	margin: 10px;
 	border-color: #F31320;
@@ -31,7 +84,7 @@ header {
 	color: #F2E527;
 	
 }
-img {
+a img {
 	border-style: solid;
 	border-color: #F31320;
 	border-width: 2px;
@@ -40,7 +93,11 @@ img {
 a {
 	text-decoration: none;
 	color: #F2E527;
-	
 	background-color: #0F0F03;
 	display: inline-block;
+}
+a:hover{
+	background-color: #F2E527;
+	color: #0F0F03;
+	
 }
