@@ -1,12 +1,17 @@
 nav li{
 	display: inline;
-	padding: 4px;
+	padding: 2px;
 	font-family: Georgia, Times, serif;
+	font-size: small;
 }
 
 body {
 	background-color: #FFF;
-	margin: 0 auto;
+	width: 80%;
+	margin: 0px auto;
+}
+header {
+	width: 80%;
 }
 
 #introduction {
@@ -26,14 +31,16 @@ body {
 	color: #F2E527;
 	
 }
-
-a {
-	text-decoration: none;
-	color: #F2E527;
+img {
 	border-style: solid;
 	border-color: #F31320;
 	border-width: 2px;
 	padding: 3px;
+}
+a {
+	text-decoration: none;
+	color: #F2E527;
+	
 	background-color: #0F0F03;
 	display: inline-block;
 }
