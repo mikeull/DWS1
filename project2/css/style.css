@@ -20,16 +20,19 @@ h1 {
 	text-shadow: 3px -1px 1px #000;
 	background-color: #F31320;
 	margin: 0px auto;
-	width: 75%;
 	padding: 7px;
+	
+
+	
+}
+#shadowbox{
+	box-shadow: -1px 0px 5px 3px #000;
+	width: 75%;
 	border-color: #F31320;
 	border-style: solid;
 	border-radius: 10px 10px 0px 0px;
-	
-	
-	
+	margin: 0px auto;
 }
-
 h2{
 	font-family:OSP-DIN, arial;
 	color: #F2E527;
@@ -71,10 +74,9 @@ body {
 }
 header {
 	background-color: #0F0F03;
-	width: 75%;
+
 	padding: 7px;
-	border-color: #F31320;
-	border-style: solid;
+
 	font-family: OSP-DIN, arial;
 	font-size: 115%;
 	margin: 0px auto;
@@ -85,21 +87,19 @@ header {
 
 #introduction {
 	background-color: #0F0F03;
-	width: 75%;
+
 	padding: 7px;
 	margin: 0px auto;
-	border-color: #F31320;
-	border-style: solid;
+
 	color: #F2E527;
 	
 }
 #details {
 	background-color: #0F0F03;
-	width: 75%;
+
 	padding: 7px;
 	margin: 0px auto;
-	border-color: #F31320;
-	border-style: solid;
+
 	color: #F2E527;
 	
 	
