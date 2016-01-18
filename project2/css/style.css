@@ -1,4 +1,4 @@
-
+/* fonts */
 @font-face{
 	font-family: 'BebasNeue';
 	src: url('../fonts/BebasNeue.otf');
@@ -9,6 +9,37 @@
 	src: url('../fonts/OSP-DIN.ttf');
 }
 
+/* container that adds drop shadow to main content */
+#shadowbox{
+	box-shadow: -1px 5px 15px 3px #000;
+	width: 75%;
+	border-color: #F31320;
+	border-style: solid;
+	border-radius: 10px 10px 0px 0px;
+	margin: 0px auto;
+}
+
+/* navigation */
+header {
+	background-color: #0F0F03;
+	padding: 7px;
+	font-family: OSP-DIN, arial;
+	font-size: 115%;
+	margin: 0px auto;
+	word-spacing: .5em;
+	text-align:center;
+	
+}
+
+nav ul{
+	padding: 0px;
+}
+
+nav li{
+	display: inline;	
+}
+
+/* main content */
 h1 {
 	font-family:OSP-DIN, arial;
 	color: #F2E527;
@@ -20,19 +51,9 @@ h1 {
 	text-shadow: 3px -1px 1px #000;
 	background-color: #F31320;
 	margin: 0px auto;
-	padding: 7px;
-	
+	padding: 7px;	
+}
 
-	
-}
-#shadowbox{
-	box-shadow: -1px 5px 15px 3px #000;
-	width: 75%;
-	border-color: #F31320;
-	border-style: solid;
-	border-radius: 10px 10px 0px 0px;
-	margin: 0px auto;
-}
 h2{
 	font-family:OSP-DIN, arial;
 	color: #F2E527;
@@ -44,26 +65,6 @@ h2{
 	background-color: #F31320;
 	padding: 0px 10px;
 }
-h3{
-	font-family:OSP-DIN, arial;
-	color:  #F31320;
-	font-size: 120%;
-	font-weight: normal;
-	font-style: normal;
-	line-height: 1.5em;
-	
-	text-indent: 0px;
-	background-color: #F2E527;
-	padding: 0px 8px;
-	
-}
-nav ul{
-	padding: 0px;
-}
-nav li{
-	display: inline;	
-}
-
 
 body {
 	background-color: #F3D626;
@@ -72,18 +73,7 @@ body {
 	font-size:90%;
 	color: #F2E527;
 }
-header {
-	background-color: #0F0F03;
 
-	padding: 7px;
-
-	font-family: OSP-DIN, arial;
-	font-size: 115%;
-	margin: 0px auto;
-	word-spacing: .5em;
-	text-align:center;
-	
-}
 
 #introduction {
 	background-color: #0F0F03;
@@ -104,6 +94,24 @@ header {
 	
 	
 }
+
+h3{
+	font-family:OSP-DIN, arial;
+	color:  #F31320;
+	font-size: 120%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+	text-indent: 0px;
+	background-color: #F2E527;
+	padding: 0px 8px;	
+}
+
+ol{
+	list-style-type:lower-roman;
+}
+
+/* hyperlinks*/
 a:link {
 	text-decoration: none;
 	color: #F2E527;
@@ -114,20 +122,15 @@ a:hover{
 	background-color: #F2E527;
 	color: #0F0F03;
 }
+
 a:visited{
 	color: #F4941F;
 }
+
 a:active{
 	background-color: #F2E527;
 }
-aside{
-	background-color: #0F0F03;
-	width:50%;
-	font-size: 75%;
-	
-	font-family: georgia, times;
-	
-}
+
 figure{
 	border-style: solid;
 	border-color: #F31320;
@@ -137,10 +140,17 @@ figure{
 	height: 230px;
 	display: inline-block;
 }
-ol{
-	list-style-type:lower-roman;
-}
+/* footer */
 footer{
 	background-color: #0F0F03;
 	font-size: 75%;
+}
+/* aside section */
+aside{
+	background-color: #0F0F03;
+	width:25%;
+	font-size: 75%;
+	
+	font-family: georgia, times;
+	
 }
