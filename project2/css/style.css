@@ -29,19 +29,21 @@ h2{
 	font-style: normal;
 	line-height: 1.5em;
 	text-align: left;
-	text-shadow: 3px -1px 1px #000;
+	
 	background-color: #F31320;
+	padding: 0px 10px;
 }
 h3{
 	font-family:OSP-DIN, arial;
-	color: #F2E527;
+	color:  #F31320;
 	font-size: 120%;
 	font-weight: normal;
 	font-style: normal;
 	line-height: 1.5em;
-	text-align: left;
-	text-shadow: 3px -1px 1px #000;
-	background-color: #F31320;
+	text-align: center;
+	text-indent: 0px;
+	background-color: #F2E527;
+	padding: 0px 8px;
 	
 }
 nav li{
@@ -90,7 +92,7 @@ a img {
 	border-width: 2px;
 	padding: 3px;
 }
-a {
+a:link {
 	text-decoration: none;
 	color: #F2E527;
 	background-color: #0F0F03;
@@ -99,5 +101,6 @@ a {
 a:hover{
 	background-color: #F2E527;
 	color: #0F0F03;
-	
 }
+a:visited{}
+a:active{}
