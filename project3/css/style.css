@@ -177,9 +177,9 @@ footer{
 /* aside section */
 aside{
 	background-color: #0F0F03;
-	width:22%;
+	width:75%;
 	font-size: 75%;
-	float: right;
+	float: left;
 	font-family: georgia, times;
 	
 }
