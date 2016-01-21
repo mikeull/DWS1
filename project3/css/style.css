@@ -179,7 +179,7 @@ aside{
 	background-color: #0F0F03;
 	width:75%;
 	font-size: 75%;
-	float: left;
+	margin: 10 auto;
 	font-family: georgia, times;
 	
 }
