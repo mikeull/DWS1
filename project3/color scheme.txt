@@ -1,0 +1,7 @@
+Smash 64 color scheme:
+
+F31320 red
+F2E527 yellow
+F3D626 sunset
+F4941F orange
+0F0F03 dark gray
