@@ -109,8 +109,12 @@ body {
 	margin: 0px auto;
 	color: #F2E527;
 	width: 50%;
-	
-	
+}
+
+#boxart{
+	margin: 0px 15px;
+	float: left;
+	width: 231px;
 }
 /*.column {
 	background-color: #0F0F03;
