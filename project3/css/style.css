@@ -71,6 +71,7 @@ h2{
 body {
 	background-color: #222;
 	background-image: url("../images/smashbg.png");
+	background-attachment:fixed;
 	text-align: justify;
 	font-family:  sans-serif;
 	font-size:90%;
@@ -173,6 +174,13 @@ footer{
 	background-color: #0F0F03;
 	font-size: 75%;
 	clear: both;
+	box-shadow: -1px 5px 15px 3px #000;
+	width: 75%;
+	border-color: #F31320;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	margin: 0px auto;
+	overflow: auto;
 }
 /* aside section */
 aside{
@@ -186,6 +194,7 @@ aside{
 	border-style: solid;
 	border-radius: 10px 10px 10px 10px;
 	margin: 10px auto;
+	padding: 0px;
 	overflow: auto;
 	background-color: #0F0F03;	
 }
