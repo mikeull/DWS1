@@ -178,7 +178,7 @@ footer{
 aside{
 	background-color: #0F0F03;
 	width:75%;
-	font-size: 75%;
+	font-size: 120%;
 	font-family: georgia, times;
 	box-shadow: -1px 5px 15px 3px #000;
 	width: 75%;
@@ -187,8 +187,13 @@ aside{
 	border-radius: 10px 10px 10px 10px;
 	margin: 10px auto;
 	overflow: auto;
-	background-color: #0F0F03;
-	
-	
-	
+	background-color: #0F0F03;	
+}
+
+#wiiu{
+	float: left;
+}
+
+#asideText{
+	margin: 25px;
 }
